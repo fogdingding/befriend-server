@@ -35,7 +35,7 @@ $ uvicorn src.app.main:app --proxy-headers --forwarded-allow-ips='*'
 進入 src 資料夾後，輸入以下指令來建立 Docker Image。
 
 ```shell
-$ docker build -t hairei-server-api . --no-cache
+$ docker build -t server-api . --no-cache
 ```
 
 之後回到專案目錄下執行指令（退出 src 資料夾）<http://127.0.0.1:8000/docs>。可以在 docker-compose.yml 中調整參數以及 docker 中對應出來的 PORT，最後利用 docker-compose up 啟動服務。
