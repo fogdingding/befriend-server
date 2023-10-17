@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["fogdingding <fogdingding@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncio = "^3.4.3"
+asyncpg = "^0.28.0"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+python-dateutil = "^2.8.2"
+httpx = "^0.25.0"
+pytest = "^7.4.2"
+requests = "^2.31.0"
+pydantic-settings = "^2.0.3"
+python-multipart = "^0.0.6"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
